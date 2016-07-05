@@ -42,8 +42,8 @@
 
 // Namespaces
 // This stops me from being overzealous with enforcing classes
-$toast-grid-namespace: "grid" !default;
-$toast-grid-column-namespace: "grid__col" !default;
+$toast-grid-namespace: "row" !default;
+$toast-grid-column-namespace: "cl" !default;
 
 // $col-groups are the column groups you want
 // For example, $col-groups: (3, 4, 5) will output:
@@ -51,7 +51,7 @@ $toast-grid-column-namespace: "grid__col" !default;
 $toast-col-groups: (2, 3, 4, 5, 6, 8, 12) !default;
 
 // Gutter width
-$toast-gutter-width: 20px !default;
+$toast-gutter-width: 10px !default;
 
 // Breakpoints
 $toast-breakpoint-medium: 700px !default;
